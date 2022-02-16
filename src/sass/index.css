@@ -1,0 +1,79 @@
+.homeContainer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.searchContainer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeInput {
+  width: 60vw;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.homeInput:hover {
+  border-color: #ff1801;
+}
+
+.homeImage {
+  max-width: 60vw;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: "Formula1 Wide";
+  color: #ff1801;
+}
+
+input {
+  font-family: "Formula1 Regular";
+}
+
+@font-face {
+  font-family: "Formula1 Bold";
+  src: url("../fonts/Formula1-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Formula1 Regular";
+  src: url("../fonts/Formula1-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Formula1 Wide";
+  src: url("../fonts/Formula1-Wide.ttf");
+}
+/*# sourceMappingURL=index.css.map */
