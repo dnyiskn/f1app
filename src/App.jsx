@@ -1,10 +1,11 @@
 import Test from "./components/landingPage";
-import SearchResult from "./components/searchResult";
+import ApiCall from "./components/searchApi";
+
 function App() {
   return (
     <div className="App">
       <Test />
-      <SearchResult />
+      <ApiCall />
     </div>
   );
 }
