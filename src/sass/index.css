@@ -52,6 +52,10 @@
   max-width: 60vw;
 }
 
+.helmImage {
+  width: 100px;
+}
+
 h1 {
   font-size: 1.5rem;
   font-family: "Formula1 Wide";

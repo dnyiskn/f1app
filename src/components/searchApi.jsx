@@ -6,13 +6,25 @@ const api = axios.create({
 
 class ApiCall extends Component {
   state = {
-    courses: [],
+    drivers: [],
   };
   constructor() {
     super();
-    api.get("/hamilton").then((res) => {
+    api.get("/  ").then((res) => {
       console.log(res.data);
+      this.setState({ drivers: res.data });
     });
+  }
+  render() {
+    return (
+      <div>
+        <ul>
+          {this.state.drivers.map((driver) => (
+            <li key="driver.id">{driver.id}</li>
+          ))}
+        </ul>
+      </div>
+    );
   }
 }
 export default ApiCall;
